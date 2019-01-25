@@ -1,0 +1,33 @@
+{
+  "name": "vuetest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "lint-autofix": "eslint --ext .js,.vue src --fix",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-e2e-nightwatch": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-plugin-unit-jest": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.1",
+    "eslint-plugin-vue": "^5.1.0",
+    "node-sass": "^4.9.0",
+    "prettier": "^1.16.1",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
